@@ -1,5 +1,6 @@
 <?php 
-require_once './BD/.php';
+
+require_once '/wamp64/www/Sistema_web_seguridad/BD/conexion.php';
  
 class EstudiantesModel{
 

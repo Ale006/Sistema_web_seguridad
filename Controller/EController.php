@@ -1,5 +1,6 @@
 <?php
-require_once 'Model/Emodel.php'; 
+
+require_once '/wamp64/www/Sistema_web_seguridad/Model/EModel.php';
 
 class EstudiantesController{
 
