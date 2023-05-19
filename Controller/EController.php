@@ -33,4 +33,26 @@ class EstudiantesController{
         }
         return $respuesta;
     }
+
+static public function log($user)
+    {
+        $tabla="usuarios";
+        if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
+            $respuesta = EstudiantesModel::datosuser($user,$tabla);
+            return $respuesta;
+        }
+    }
+
+    public function cerrarSesion($cerrar)
+    {
+        if(isset($_GET['cerrar']) && $_GET['cerrar']=='ok'){
+            $salir = $_GET['cerrar'];
+            if($salir == "ok"){
+                session_unset();
+            }
+            header('Location: ./index.php');
+            $salir = "ok";
+        }
+        return $salir;
+    }
 }

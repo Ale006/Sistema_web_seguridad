@@ -5,19 +5,23 @@
 	<meta charset="utf-8">
 	<title>CiberEducacion</title>
 	<meta name="description" content="Responsive HTML5 Template">
-	<meta name="author" content="webthemez">
+	<meta name="author" content="RodrigoAlexis">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="/images/policia.png">
 
-	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
-	<link href="css/animations.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="../../fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../../css/animations.css" rel="stylesheet">
+	<link href="../../css/style.css" rel="stylesheet">
+	<link href="../../css/custom.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
 		integrity="sha384-qzFighx3q3jKilo+nmSE7VwaxdJGpPbWEaIj+IwFJQO/nXqD0Qc1t4+gKo0Gw4J4" crossorigin="anonymous">
 </head>
+
+<?php 
+    include_once '../../View/Layout/header.php';
+?>
 
 <body>
     </section>
@@ -153,20 +157,20 @@
 
                 <div id="paginacion-noticias"></div>
             </section>
-            <script src="bootstrap/js/pagination.js"></script>
+            <script src="../../bootstrap/js/pagination.js"></script>
             <script> paginarNoticias(); </script>
 
 
             <!-- JavaScript -->
-			<script type="text/javascript" src="plugins/jquery.min.js"></script>
-			<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-			<script type="text/javascript" src="plugins/modernizr.js"></script>
-			<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
-			<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
-			<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+			<script type="text/javascript" src="../../plugins/jquery.min.js"></script>
+			<script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="../../plugins/modernizr.js"></script>
+			<script type="text/javascript" src="../../plugins/isotope/isotope.pkgd.min.js"></script>
+			<script type="text/javascript" src="../../plugins/jquery.backstretch.min.js"></script>
+			<script type="text/javascript" src="../../plugins/jquery.appear.js"></script>
 
 			<!-- Custom Scripts -->
-			<script type="text/javascript" src="js/custom.js"></script>
+			<script type="text/javascript" src="../../js/custom.js"></script>
 </body>
 
 </html>

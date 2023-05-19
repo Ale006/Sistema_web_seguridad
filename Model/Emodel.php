@@ -27,4 +27,15 @@ class EstudiantesModel{
         $cn->close();
         $cn=NULL;
     }
+
+    static public function datosuser($user,$tabla)
+    {
+        $sql="SELECT *,substring(usario_estu,1,1) AS 'inicial' FROM $tabla WHERE usuario_estu='$user'";
+        $cn=Conexion::conectar()->prepare($sql);
+        $cn->execute();
+        return $cn->fetchAll();
+
+        $cn->close();
+        $cn=NULL;
+    }
 }
