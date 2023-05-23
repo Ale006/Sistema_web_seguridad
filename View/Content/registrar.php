@@ -18,95 +18,120 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">
     <!-- <link rel="stylesheet" href="assets/css/cs-skin-elastic.css"> -->
     <link rel="stylesheet" href="css/css/style.css">
+    <link rel="shortcut icon" href="/Sistema_web_seguridad/Images/login.png">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
 </head>
 
-<!-- Pills navs -->
-<div id="register-container">
-    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-        <li class="nav-item" role="presentation">
-            <a class="nav-link" id="tab-login" data-mdb-toggle="pill" href="login.php" role="tab"
-                aria-controls="pills-login" aria-selected="true">Login</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="tab-register" data-mdb-toggle="pill" href="registrar.php"tab"
-                aria-controls="pills-register" aria-selected="false">Register</a>
-        </li>
-    </ul>
-</div>
-<!-- Pills navs -->
+<div class="bg-light">
+    <!-- Pills navs -->
+    <div id="register-container">
+        <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+            <li class="nav-item" role="presentation">
+                <div class="col-md-4">
 
-<!-- Pills content -->
-<div id="register-container">
-    <div class="tab-content">
-        <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
-            <form>
-                <div class="text-center mb-3">
-                    <p>Sign up with:</p>
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-facebook-f"></i>
-                    </button>
+                    <!-- header-left start -->
+                    <div class="header-left">
 
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                    </button>
+                        <!-- logo -->
+                        <div class="logo smooth-scroll">
+                            <a href="/Sistema_web_seguridad/index.php"><img id="logo"
+                                    src="/Sistema_web_seguridad/images/hacker.png" alt="Logo"></a>
+                        </div>
 
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-twitter"></i>
-                    </button>
+                        <!-- name-and-slogan -->
+                        <div class="logo-section smooth-scroll">
+                            <div class="brand"><a href="/Sistema_web_seguridad/index.php">CiberEdu</a></div>
+                        </div>
 
-                    <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-github"></i>
-                    </button>
+                    </div>
+                    <!-- header-left end -->
+
                 </div>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="tab-login" data-mdb-toggle="pill" href="login.php" role="tab"
+                    aria-controls="pills-login" aria-selected="true">Login</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="tab-register" data-mdb-toggle="pill" href="registrar.php" tab"
+                    aria-controls="pills-register" aria-selected="false">Register</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Pills navs -->
 
-                <p class="text-center">or:</p>
+    <!-- Pills content -->
+    <div id="register-container">
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                <form>
+                    <div class="text-center mb-3">
+                        <p>Sign up with:</p>
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
 
-                <!-- Name input -->
-                <div class="form-outline mb-4">
-                    <input type="text" id="registerName" class="form-control" />
-                    <label class="form-label" for="registerName">Name</label>
-                </div>
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-google"></i>
+                        </button>
 
-                <!-- Username input -->
-                <div class="form-outline mb-4">
-                    <input type="text" id="registerUsername" class="form-control" />
-                    <label class="form-label" for="registerUsername">Username</label>
-                </div>
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </button>
 
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                    <input type="email" id="registerEmail" class="form-control" />
-                    <label class="form-label" for="registerEmail">Email</label>
-                </div>
+                        <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="fab fa-github"></i>
+                        </button>
+                    </div>
 
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                    <input type="password" id="registerPassword" class="form-control" />
-                    <label class="form-label" for="registerPassword">Password</label>
-                </div>
+                    <p class="text-center">or:</p>
 
-                <!-- Repeat Password input -->
-                <div class="form-outline mb-4">
-                    <input type="password" id="registerRepeatPassword" class="form-control" />
-                    <label class="form-label" for="registerRepeatPassword">Repeat password</label>
-                </div>
+                    <!-- Name input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="registerName" class="form-control" placeholder="Nombre"/>
+                        <!-- <label class="form-label" for="registerName">Name</label> -->
+                    </div>
 
-                <!-- Checkbox -->
-                <div class="form-check d-flex justify-content-center mb-4">
-                    <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
-                        aria-describedby="registerCheckHelpText" />
-                    <label class="form-check-label" for="registerCheck">
-                        He leido y estoy de acuerdo con los terminos
-                    </label>
-                </div>
+                    <!-- Username input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="registerUsername" class="form-control" placeholder="Usuario"/>
+                        <!-- <label class="form-label" for="registerUsername">Username</label> -->
+                    </div>
 
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
-            </form>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="registerEmail" class="form-control" placeholder="Email"/>
+                        <!-- <label class="form-label" for="registerEmail">Email</label> -->
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="registerPassword" class="form-control" placeholder="Contraseña"/>
+                        <!-- <label class="form-label" for="registerPassword">Password</label> -->
+                    </div>
+
+                    <!-- Repeat Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="registerRepeatPassword" class="form-control" placeholder="Repetir Contraseña"/>
+                        <!-- <label class="form-label" for="registerRepeatPassword">Repeat password</label> -->
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                            aria-describedby="registerCheckHelpText" />
+                        <label class="form-check-label" for="registerCheck">
+                            He leido y estoy de acuerdo con los terminos
+                        </label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>

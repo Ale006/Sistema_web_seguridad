@@ -22,7 +22,7 @@
 					<!-- header-left end -->
 
 				</div>
-				<div class="col-md-8">
+				<div class="">
 
 					<!-- header-right start -->
 					<div class="header-right">
@@ -51,12 +51,12 @@
 										<ul class="nav navbar-nav navbar-right">
 											<li class="active"><a href="/Sistema_web_seguridad/index.php">Home</a></li>
 											<li><a href="#services">Consejos útiles</a></li>
-											<li><a href="#about">Juegos</a></li>
+											<li><a href="/Sistema_web_seguridad/View/Content/juegos.php">Juegos</a></li>
 											<!-- <li><a href="#portfolio">Cursos</a></li> -->
 											<li><a href="/Sistema_web_seguridad/View/Content/cursos.php">Cursos</a></li>
 											<li><a href="View/Content/noticias.php">Noticias</a></li>
 											<li><a href="#contact">Contactanos</a></li>
-											<li><a href="View/Content/login.php">Login</a></li>
+											<li><a href="/Sistema_web_seguridad/View/Content/login.php">Login</a></li>
 										</ul>
 									</div>
 

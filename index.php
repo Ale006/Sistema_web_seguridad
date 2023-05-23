@@ -6,9 +6,9 @@
 	<title>CiberEducacion</title>
 	<meta name="description" content="Responsive HTML5 Template">
 	<meta name="author" content="RodrigoAlexis">
+	<link rel="shortcut icon" href="/Sistema_web_seguridad/Images/policia.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="images/policia.png">
 
 	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -1313,12 +1313,10 @@
 										<p class="contacts"><i class="fa fa-phone"></i> 945817823</p>
 
 										<p class="contacts"><i class="fa fa-envelope"></i> support@biss.com</p>
-
-
-
 									</div>
 
 									</aside>
+									
 									<ul class="social-links">
 										<li class="facebook"><a target="_blank" href="#"><i
 													class="fa fa-facebook"></i></a></li>
@@ -1332,6 +1330,8 @@
 													class="fa fa-linkedin"></i></a></li>
 										<li class="youtube"><a target="_blank" href="#"><i
 													class="fa fa-youtube"></i></a></li>
+										<li class="flickr"><a target="_blank" href="#"><i
+													class="fa fa-flickr"></i></a></li>
 									</ul>
 								</div>
 							</div>

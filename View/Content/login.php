@@ -44,31 +44,31 @@ if($comprobacion >=1 && $comprobacion !=NULL)
 {
 foreach($comprobacion as $plog)
 {
- $userbd=$plog['unick'];
- $clavebd=$plog['upass'];
- $estadodb=$plog['fk_estado'];
+$userbd=$plog['unick'];
+$clavebd=$plog['upass'];
+$estadodb=$plog['fk_estado'];
 }
 if($userbd==$user&&$clavebd==$clave&&$estadodb==1)
 {
- $login = UsuariosController::login($user,$clave);
+$login = UsuariosController::login($user,$clave);
 }
 else
 {
- echo '
- <div class="container">
-     <div class="alert alert-danger" role="alert">
-         Usuario no habilitado!
-     </div>
- </div>';
+echo '
+<div class="container">
+<div class="alert alert-danger" role="alert">
+Usuario no habilitado!
+</div>
+</div>';
 }
 }
 else
 {
 echo '
 <div class="container">
- <div class="alert alert-danger" role="alert">
-     Usuario o contraseña incorrecta!
- </div>
+<div class="alert alert-danger" role="alert">
+Usuario o contraseña incorrecta!
+</div>
 </div>';
 }
 } */
@@ -89,6 +89,7 @@ echo '
     <meta name="description" content="Grupo6-Capstone Admin - HTML5">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="shortcut icon" href="/Sistema_web_seguridad/Images/login.png">
     <!-- ICONOS -->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -118,14 +119,38 @@ echo '
 </head>
 
 <body class="bg-light">
+
     <div id="login-container">
         <form action="" method="Post">
             <!-- Pills navs -->
             <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
                 <li class="nav-item" role="presentation">
+                    <div class="col-md-4">
+
+                        <!-- header-left start -->
+                        <div class="header-left">
+
+                            <!-- logo -->
+                            <div class="logo smooth-scroll">
+                                <a href="/Sistema_web_seguridad/index.php"><img id="logo"
+                                        src="/Sistema_web_seguridad/images/hacker.png" alt="Logo"></a>
+                            </div>
+
+                            <!-- name-and-slogan -->
+                            <div class="logo-section smooth-scroll">
+                                <div class="brand"><a href="/Sistema_web_seguridad/index.php">CiberEdu</a></div>
+                            </div>
+
+                        </div>
+                        <!-- header-left end -->
+
+                    </div>
+                </li>
+                <li class="nav-item" role="presentation">
                     <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="login.php" role="tab"
                         aria-controls="pills-login" aria-selected="true">Login</a>
                 </li>
+
                 <li class="nav-item" role="presentation">
                     <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="registrar.php" role="tab"
                         aria-controls="pills-register" aria-selected="false">Register</a>
