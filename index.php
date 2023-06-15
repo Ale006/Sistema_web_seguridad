@@ -1267,7 +1267,7 @@
 				<!-- .footer start -->
 				<div class="footer section">
 					<div class="container">
-						<h1 class="title text-center" id="contact">Contacto</h1>
+						<h1 class="title text-center" id="contact">Reportar incidencia</h1>
 						<div class="space"></div>
 						<div class="row">
 
@@ -1275,7 +1275,7 @@
 								<div class="footer-content">
 									<form role="form" id="footer-form">
 										<div class="form-group has-feedback">
-											<label class="sr-only" for="name2">Name</label>
+											<label class="sr-only" for="name2">Nombre</label>
 											<input type="text" class="form-control" id="name2" placeholder="Nombre"
 												name="name2" required>
 											<i class="fa fa-user form-control-feedback"></i>
@@ -1287,12 +1287,12 @@
 											<i class="fa fa-envelope form-control-feedback"></i>
 										</div>
 										<div class="form-group has-feedback">
-											<label class="sr-only" for="message2">Message</label>
-											<textarea class="form-control" rows="8" id="message2" placeholder="Mensaje"
+											<label class="sr-only" for="message2">Mensaje</label>
+											<textarea class="form-control" rows="8" id="message2" placeholder="Ingrese incidencia sobre algun caso de ciberacoso o peligro en la red que ha experimentado o que haya sido testigo..."
 												name="message2" required></textarea>
 											<i class="fa fa-pencil form-control-feedback"></i>
 										</div>
-										<input type="submit" value="Enviar" class="btn btn-default">
+										<input type="submit" value="Reportar" class="btn btn-default">
 									</form>
 								</div>
 							</div>
@@ -1303,9 +1303,7 @@
 
 									<div class="widget-content">
 
-										<p>Ante cualquier duda que tengas con el sitio web o alguna informacion que no
-											tenga explicado, no dudes en comunicarte con nosotros. Te ayudaremos en el
-											menor tiempo posible. </p><br />
+										<p style="text-align: left;">Si estás experimentando cualquier forma de ciberacoso o te sientes incómodo/a con alguna situación en línea, queremos que sepas que estamos aquí para apoyarte. Tu seguridad y bienestar son de suma importancia para nosotros. No dudes en comunicarte con nuestro equipo para reportar cualquier incidente de ciberacoso o compartir cualquier información que consideres relevante. Tomaremos tus preocupaciones en serio y tomaremos las medidas necesarias para abordar la situación, no estás solo/a, estamos aquí para ayudarte en todo lo que podamos. </p><br />
 
 										<p class="contacts"><i class="fa fa-map-marker"></i> 1508 Puente Piedra, Lima,
 											PE 150015 </p>

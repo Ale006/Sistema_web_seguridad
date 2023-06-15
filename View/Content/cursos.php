@@ -65,11 +65,10 @@ include_once '../Layout/header.php';
                                     <img src="/Sistema_web_seguridad/images/portfolio-1.jpg" alt="">
                                     <a class="overlay" data-toggle="modal" data-target="#project-1">
                                         <i class="fa fa-search-plus"></i>
-
                                     </a>
                                 </div>
                                 <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-1">Conceptos básicos de seguridad informática</a>
+                                    data-target="#project-1">Intoduccion a la seguridad informatica en RRSS</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-1" tabindex="-1" role="dialog"
@@ -80,24 +79,170 @@ include_once '../Layout/header.php';
                                             <button type="button" class="close" data-dismiss="modal"><span
                                                     aria-hidden="true">&times;</span><span
                                                     class="sr-only">Close</span></button>
-                                            <h4 class="modal-title" id="project-1-label">Conceptos básicos de seguridad informática</h4>
+                                            <h2 class="modal-title" id="project-1-label" style="color: white;">
+                                                Introduccion a la seguridad informatica en redes sociales</h2>
                                         </div>
                                         <div class="modal-body">
 
                                             <div class="row">
                                                 <div class="col-md-12">
-                                                    <img src="/Sistema_web_seguridad/images/portfolio-1.jpg" alt="" width="400" height="400">
+
+                                                    <div class="embed-responsive embed-responsive-16by9"
+                                                        style="width: 800px; height: 450px;">
+
+                                                        <!-- <img src="/Sistema_web_seguridad/images/portfolio-1.jpg" alt="" width="400" height="400"> -->
+                                                        <iframe width="400" height="400"
+                                                            src="https://www.youtube.com/embed/iXSrkj_25sA"
+                                                            title="YouTube video player" frameborder="0"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                            allowfullscreen></iframe>
+                                                    </div>
                                                     <br />
                                                     <h3>Descripción</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                                                        sed,
-                                                        quidem quis praesentium, ut unde. Quae sed, incidunt laudantium
-                                                        nesciunt, optio corporis quod earum pariatur omnis illo saepe
-                                                        numquam suscipit, nemo placeat dignissimos eius mollitia et quas
-                                                        officia doloremque ipsum labore rem deserunt.</p>
+                                                    <p>En este curso, exploraremos los fundamentos de la seguridad
+                                                        informática en el contexto de las redes sociales. Aprenderemos
+                                                        los conceptos básicos de seguridad, incluyendo la
+                                                        confidencialidad, integridad y disponibilidad de la información
+                                                        en línea. Nos enfocaremos en la importancia de proteger la
+                                                        privacidad en las redes sociales, abordando temas como la
+                                                        configuración de la privacidad en los perfiles, el uso de
+                                                        contraseñas seguras y el cifrado de extremo a extremo en
+                                                        aplicaciones de mensajería instantánea.</p>
+
+                                                    <h3>Temas</h3>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">
+                                                            <button class="btn btn-link" data-toggle="modal"
+                                                                data-target="#topic-1">Conceptos básicos de seguridad
+                                                                informática</button>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <button class="btn btn-link" data-toggle="modal"
+                                                                data-target="#topic-2">Importancia de la seguridad en
+                                                                redes sociales</button>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <button class="btn btn-link" data-toggle="modal"
+                                                                data-target="#topic-3">Amenazas y riesgos comunes en
+                                                                redes sociales</button>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <!-- Modal Conceptos Basicos de Seguridad Informatica -->
+                                        <div class="modal fade" id="topic-1" tabindex="-1" role="dialog"
+                                            aria-labelledby="topic-1-label" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                                aria-hidden="true">&times;</span><span
+                                                                class="sr-only">Closet</span></button>
+                                                        <h4 class="modal-title" id="topic-1-label">Conceptos Basicos de
+                                                            Seguridad Informatica</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-md-8">
+                                                                <div class="embed-responsive embed-responsive-16by9">
+                                                                    <iframe width="100%" height="100%"
+                                                                        src="https://www.youtube.com/embed/iXSrkj_25sA"
+                                                                        title="YouTube video player" frameborder="0"
+                                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                        allowfullscreen></iframe>
+                                                                </div>
+
+                                                                <a href="#"> <small>Introducción a la seguridad informática en RRSS</small></a>
+
+                                                                <br />
+                                                                <h3>Recursos</h3>
+                                                                <p>La seguridad iformatica cuenta con pilares que son el cimiento de toda la seguridad, y estos son: <br /> <br />
+                                                                    - Disponibilidad<br />
+                                                                    - integridad<br />
+                                                                    - confidencialidad<br />
+                                                                    - Autenticacion</p>
+
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <h4>Comentarios</h4>
+                                                                
+                                                                <form>
+                                                                    <div class="form-group">
+                                                                    <label for="name">Nombre:</label>
+                                                                    <input type="text" class="form-control" id="name" name="name" required>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                    <label for="comment">Comentario:</label>
+                                                                    <textarea class="form-control" id="comment" placeholder="Escribe tu aporte o comentario" name="comment" rows="4" required></textarea>
+                                                                    </div>
+                                                                    <button type="submit" class="btn btn-primary">Enviar comentario</button>
+                                                                </form>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-sm btn-default"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Importancia de la seguridad informatica en RRSS -->
+
+
+                                        <div class="modal fade" id="topic-2" tabindex="-1" role="dialog"
+                                            aria-labelledby="topic-2-label" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                                aria-hidden="true">&times;</span><span
+                                                                class="sr-only">Close</span></button>
+                                                        <h4 class="modal-title" id="topic-2-label">Importancia de la
+                                                            seguridad informatica en RRSS</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <!-- Contenido del Tema 2: Video, comentarios, etc. -->
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-sm btn-default"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Amenazas y riesgos comunes en RRSS -->
+
+
+                                        <div class="modal fade" id="topic-3" tabindex="-1" role="dialog"
+                                            aria-labelledby="topic-3-label" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                                aria-hidden="true">&times;</span><span
+                                                                class="sr-only">Close</span></button>
+                                                        <h4 class="modal-title" id="topic-3-label">Amenazas y riesgos
+                                                            comunes en RRSS </h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <!-- Contenido del Tema 3: Video, comentarios, etc. -->
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-sm btn-default"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-sm btn-default"
                                                 data-dismiss="modal">Close</button>
@@ -108,6 +253,7 @@ include_once '../Layout/header.php';
                             <!-- Modal end -->
                         </div>
 
+
                         <!-- CURSO 1 - TEMA 2-->
                         <div class="col-sm-6 col-md-3 isotope-item curso-1">
                             <div class="image-box">
@@ -115,12 +261,10 @@ include_once '../Layout/header.php';
                                     <img src="/Sistema_web_seguridad/images/portfolio-2.jpg" alt="">
                                     <a class="overlay" data-toggle="modal" data-target="#project-2">
                                         <i class="fa fa-search-plus"></i>
-
                                     </a>
                                 </div>
                                 <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-2">Configuración de privacidad en perfiles de redes
-                                    sociales</a>
+                                    data-target="#project-2">Proteccion de la privacidad en redes sociales</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-2" tabindex="-1" role="dialog"
@@ -417,8 +561,8 @@ include_once '../Layout/header.php';
                                         <span>Site Building</span>
                                     </a>
                                 </div>
-                                <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-8">Ética y responsabilidad en redes sociales</a>
+                                <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Ética
+                                    y responsabilidad en redes sociales</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-8" tabindex="-1" role="dialog"
@@ -617,7 +761,8 @@ include_once '../Layout/header.php';
                                     </a>
                                 </div>
                                 <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-12">Impacto de las redes sociales en la seguridad y privacidad</a>
+                                    data-target="#project-12">Impacto de las redes sociales en la seguridad y
+                                    privacidad</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-12" tabindex="-1" role="dialog"
@@ -717,7 +862,8 @@ include_once '../Layout/header.php';
                                     </a>
                                 </div>
                                 <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-14">Educación y concienciación sobre seguridad en redes socialess</a>
+                                    data-target="#project-14">Educación y concienciación sobre seguridad en redes
+                                    socialess</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-14" tabindex="-1" role="dialog"
@@ -767,7 +913,8 @@ include_once '../Layout/header.php';
                                     </a>
                                 </div>
                                 <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-15">Prevención del acceso no autorizado a cuentas en redes sociales</a>
+                                    data-target="#project-15">Prevención del acceso no autorizado a cuentas en redes
+                                    sociales</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-15" tabindex="-1" role="dialog"
@@ -866,8 +1013,8 @@ include_once '../Layout/header.php';
                                         <span>Site Building</span>
                                     </a>
                                 </div>
-                                <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-17">Ética en el uso de redes sociales</a>
+                                <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-17">Ética
+                                    en el uso de redes sociales</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-17" tabindex="-1" role="dialog"
@@ -917,7 +1064,8 @@ include_once '../Layout/header.php';
                                     </a>
                                 </div>
                                 <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-18">Administración de conflictos y resolución de problemas en redes sociales</a>
+                                    data-target="#project-18">Administración de conflictos y resolución de problemas en
+                                    redes sociales</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-18" tabindex="-1" role="dialog"
@@ -1017,7 +1165,8 @@ include_once '../Layout/header.php';
                                     </a>
                                 </div>
                                 <a class="btn btn-default btn-block" data-toggle="modal"
-                                    data-target="#project-20">Desarrollo de habilidades para una presencia segura en redes sociales</a>
+                                    data-target="#project-20">Desarrollo de habilidades para una presencia segura en
+                                    redes sociales</a>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="project-20" tabindex="-1" role="dialog"

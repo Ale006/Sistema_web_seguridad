@@ -55,7 +55,7 @@
 											<!-- <li><a href="#portfolio">Cursos</a></li> -->
 											<li><a href="/Sistema_web_seguridad/View/Content/cursos.php">Cursos</a></li>
 											<li><a href="View/Content/noticias.php">Noticias</a></li>
-											<li><a href="#contact">Contactanos</a></li>
+											<li><a href="#contact">Denunciar</a></li>
 											<li><a href="/Sistema_web_seguridad/View/Content/login.php">Login</a></li>
 										</ul>
 									</div>
